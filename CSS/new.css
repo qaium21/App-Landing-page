@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* Layout */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+
+}
+.col-1 {width: 8.33%; float: left;}
+.col-2 {width: 16.66%;float: left;}
+.col-3 {width: 25%;float: left;}
+.col-4 {width: 33.33%;float: left;}
+.col-5 {width: 41.66%;float: left;}
+.col-6 {width: 50%;float: left;}
+.col-7 {width: 58.33%;float: left;}
+.col-8 {width: 66.66%;float: left;}
+.col-9 {width: 75%;float: left;}
+.col-10 {width: 83.33%;float: left;}
+.col-11 {width: 91.66%;float: left;}
+.col-12 {width: 100%;float: left;}
+
+header{
+    background:url(../img/Vibo---PSD-App-Template.png);
+    background-size:cover ;
+    text-align: center;
+    color: white;
+}
+.logo-part{
+    margin-top:30px;
+    padding-right: 200px;
+
+}
+.menu-part{
+    margin-top: 30px;
+
+
+}
+.menu-part a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    color: white;
+   
+
+}
+.hero-part{
+    padding: 30px 50px;
+
+}
+.bt{
+    margin: 20px;
+    
+}
+.bt a button{
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+#info{
+    text-align: center;
+    
+    background: url(../img/bg-2.png);
+    background-size: cover;
+    margin-top: -200px;
+    
+}
+.info-img-part{
+    margin-top: 250px;
+}
+.info-box-part{
+    margin-top: 250px;
+    
+}
+.info-box{
+box-shadow: 0px 0px 15px;
+padding: 25px;
+border-radius: 20px;
+}
+.one{
+    position: relative;
+    top: 20px;
+    background-color: white;
+    right: 50px;
+}
+.two{
+    position: relative;
+    top: 150px;
+    background-color: white;
+    left: 20px;
+
+}
+.three{
+    position: relative;
+    top: 80px;
+    background-color: white;
+    right: 50px;
+
+}
+.four{
+    position: relative;
+    top: 200px;
+    background-color: white;
+    left: 20px;
+
+}
+#stable{
+    background-color: #ffffff;
+    padding: 50px;
+}
+.stable-writing-part{
+    text-align: right;
+    padding: 40px;
+}
+
+
+.stable-writing-part a button{
+    text-transform: uppercase;
+    background-color: #33d2fd;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+.icon-1 span{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    
+}
+.icon-1{
+    background-color: #25bcff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 7px
+}
+.stable-box-part{
+    padding: 50px;
+}
+.everything-writing-part h2{
+    margin-bottom: 20px;
+}
+.everything-writing-part li{
+    padding: 15px;
+   display: block;
+    
+}
+.everything-writing-part ul li span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #25bcff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#available{
+    background-color: #33d2fd;
+    padding: 50px;
+    text-align: center;
+
+}
+.available-writing-part{
+    padding: 70px;
+
+}
+
+.available-writing-part p{
+    padding: 30px;
+}
+.available-writing-part a{
+    margin: 20px;
+}
+.available-writing-part a button{
+    text-transform: uppercase;
+    background-color: #f95178;
+    padding: 20px 60px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 300px;
+    right: 260px;
+}
+#about{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px;
+
+}
+.about-box{
+    padding: 50px;
+}
+.get-in{
+    padding: 20px;
+}
+.get-in a button{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 18px;
+    background-color: #25bcff;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+    left: 400px;
+}
+#footer{
+    background-color: #233148;
+    padding: 15px;
+    color:#fff ;
+}
+.f-icon-part{
+    
+  text-decoration: solid;
+
+  font-size: 30px;
+  text-align:end ;
+    
+}
+.f-icon-part i{
+    padding:20px;
+}
+.f-writing-part{
+    text-align:center;
+    position: relative;
+    top: 20px;
+}
+
